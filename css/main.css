@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+    font-family: atten-new, "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --background: #9eb3ff;
+    /* --lightPurple: #9e8eb3; */
+    --link: #095bff;
+}
+
+body {
+    background-color: var(--background);
+    /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+header {
+    /* background: turquoise; */
+    padding: 2vh 0 0rem 0;
+}
+
+.no-display {
+    display: none;
+}
+
+.header-contents {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* MENU */
+
+button {
+    width: 1.8rem;
+    height: 1.8rem;
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    float: right;
+    margin-left: auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.tlc-logo:hover,
+.tlc-logo:focus,
+button:focus,
+button:hover {
+    /* filter: invert(37%) sepia(10%) saturate(1240%) hue-rotate(224deg) brightness(97%) contrast(91%); */
+    filter: invert(23%) sepia(78%) saturate(6343%) hue-rotate(219deg) brightness(105%) contrast(102%);
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover,
+button:focus {
+    cursor: pointer;
+}
+
+button:target {
+    transition: all 0.3s ease-in-out;
+}
+
+button:target {
+    filter: invert(23%) sepia(78%) saturate(6343%) hue-rotate(219deg) brightness(105%) contrast(102%);
+    transition: all 0.3s ease-in-out;
+}
+
+.main-menu {
+    display: block;
+    /* background-color: #95b5fa; */
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.menu-item {
+    margin: 2rem 1rem;
+    text-align: center;
+    background-color: none;
+    transition: all 0.75s ease-in-out;
+    display: inline-flex;
+    opacity: 100%;
+}
+
+.menu-item a {
+    color: var(--link);
+    font-family: 'archivo', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    font-variant-caps: all-small-caps;
+}
+
+.menu-item a:hover,
+.menu-item a:focus {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    transition: all 0.6s ease-in-out
+}
+
+.main-photo, .contact-photo {
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    height: auto;
+}
+
+.contact-photo {
+    width: 100%;
+}
+
+.grid-socials {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 2rem 0 1rem 0;
+}
+
+.grid-socials a {
+    margin: 1rem 1.2rem;
+    transition: all 0.6s ease-in-out;
+    display: inline-block;
+}
+
+
+.grid-socials a:hover,
+.grid-socials a:focus {
+    /* filter: invert(38%) sepia(34%) saturate(427%) hue-rotate(224deg) brightness(87%) contrast(84%); */
+    /* filter: invert(74%) sepia(81%) saturate(1200%) hue-rotate(180deg) brightness(90%) contrast(90%); */
+    filter: invert(23%) sepia(78%) saturate(6343%) hue-rotate(219deg) brightness(105%) contrast(102%);
+    transition: all 0.4s ease-in-out;
+}
+
+.content-container {
+    margin: 1rem 4rem;
+    text-align: center;
+    align-items: center;
+}
+
+.music {
+    margin: 1rem 2rem;
+}
+
+
+/* FOOTER */
+
+footer {
+    /* background-color: red; */
+    display: block;
+    /* position: static; */
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 2vh;
+    margin: 0.67em;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.no-display {
+    display: none;
+}
+
+.upper-space {
+    padding-top: 1.2rem;
+}
+
+.under-space {
+    padding-bottom: 1.2rem;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+hr {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+}
+
+
+/* FONTS */
+
+h1, p.title {
+    font-family: 'urw-form', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin: 0.67em 0 0 0;
+    letter-spacing: 0.1em;
+    /* color: white; */
+  }
+  
+h2 {
+    font-family: 'archivo', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 0.67em 0;
+    text-transform: uppercase;
+    /* color: white; */
+}
+
+h3, p.show {
+    font-family: 'archivo', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 1.75em 0 0.67em 0;
+    text-transform: uppercase;
+}
+
+p {
+    /* color: white; */
+    font-weight: 300;
+    font-family: 'dm sans', sans-serif;
+    line-height: 1.5;
+}
+
+p a {
+    color: var(--link);
+    font-family: 'dm sans', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+p a:hover,
+p a:focus {
+    text-decoration: underline;
+    text-underline-offset: 0.25rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.show-title a {
+    font-weight: 800;
+}
+
+p.show-margin.show {
+    margin: 0.67em 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+
+/* SMALL DEVICES STYLESHEET (portrait tablets and large phones, 600px and up) */
+
+/* @media only screen and (min-width: 23rem) and (max-width: 48rem) {
+    .main-photo {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+    .main-photo {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-height: 31rem) and (min-width: 40rem) {
+    .main-photo {
+        width: 30%;
+    }
+} */
+
+@media only screen and (max-height: 31rem) {
+    header {
+        padding-top: 1rem;
+    }
+}
+
+@media only screen and (min-width: 62.5rem) {
+    /* .main-photo {
+        width: 25%;
+    } */
+
+    .contact-photo {
+        width: 50%;
+    }
+
+    .content-container {
+        margin: 1rem 22rem;
+    }
+}
+/* 
+@media only screen and (min-height: 47.5rem) {
+    header {
+        padding-top: 16vh;
+    }
+
+    .menu-item a {
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-height: 62.5rem) {
+    header {
+        padding-top: 18vh;
+    }
+
+    .menu-item a {
+        font-size: 1.6rem;
+    }
+}
+
+@media only screen and (min-height: 80rem) {
+    header {
+        padding-top: 22vh;
+    }
+
+    .menu-item a {
+        font-size: 1.8rem;
+    }
+} */
