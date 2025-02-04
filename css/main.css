@@ -7,7 +7,7 @@
 }
 
 :root {
-    --background: #f0f0f0;
+    --background: #21315d;
     /* --lightPurple: #9e8eb3; */
     --link: #095bff;
 }
@@ -60,10 +60,6 @@ button:hover {
 button:hover,
 button:focus {
     cursor: pointer;
-}
-
-button:target {
-    transition: all 0.3s ease-in-out;
 }
 
 button:target {
@@ -124,6 +120,7 @@ button:target {
     margin: 1rem 1.2rem;
     transition: all 0.6s ease-in-out;
     display: inline-block;
+    filter: invert(100%) sepia(0%) saturate(6343%) hue-rotate(219deg) brightness(105%) contrast(102%);
 }
 
 
@@ -149,9 +146,7 @@ button:target {
 /* FOOTER */
 
 footer {
-    /* background-color: red; */
     display: block;
-    /* position: static; */
     align-items: center;
     text-align: center;
     padding-top: 1rem;
@@ -188,20 +183,22 @@ hr {
 
 h1, p.title {
     font-family: 'urw-form', sans-serif;
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     font-weight: 400;
     margin: 0.67em 0 0 0;
     letter-spacing: 0.1em;
-    /* color: white; */
+    color: white;
   }
   
-h2 {
-    font-family: 'archivo', sans-serif;
-    font-size: 2.2rem;
+h2, .subtitle {
+    /* font-family: 'archivo', sans-serif; */
+    font-family: 'urw-form', sans-serif;
+    font-size: 1.8rem;
     font-weight: 800;
     margin: 0.67em 0;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
-    /* color: white; */
+    color: white;
 }
 
 h3, p.show {
@@ -213,15 +210,17 @@ h3, p.show {
 }
 
 p {
-    /* color: white; */
+    font-family: 'urw-form', sans-serif;
+    color: white;
     font-weight: 300;
-    font-family: 'dm sans', sans-serif;
+    /* font-family: 'dm sans', sans-serif; */
     line-height: 1.5;
 }
 
 p a {
     color: var(--link);
-    font-family: 'dm sans', sans-serif;
+    font-family: 'urw-form', sans-serif;
+    /* font-family: 'dm sans', sans-serif; */
     font-weight: 500;
     transition: all 0.3s ease-in-out;
 }
