@@ -106,12 +106,9 @@ button {
     font-size: 1rem;
 }
 
-.tlc-logo:hover,
-.tlc-logo:focus,
 button:focus,
 button:hover {
-    filter: invert(23%) sepia(78%) saturate(6343%) hue-rotate(219deg) brightness(105%) contrast(102%);
-    transition: all 0.3s ease-in-out;
+    filter: brightness(0) saturate(100%) invert(74%) sepia(26%) saturate(784%) hue-rotate(192deg) brightness(101%) contrast(104%);
 }
 
 button:hover,
@@ -120,8 +117,7 @@ button:focus {
 }
 
 button:target {
-    filter: invert(23%) sepia(78%) saturate(6343%) hue-rotate(219deg) brightness(105%) contrast(102%);
-    transition: all 0.3s ease-in-out;
+    filter: brightness(0) saturate(100%) invert(74%) sepia(26%) saturate(784%) hue-rotate(192deg) brightness(101%) contrast(104%);
 }
 
 .main-menu {
