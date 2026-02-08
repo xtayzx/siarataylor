@@ -415,6 +415,10 @@ p a:focus {
     transition: all 0.3s ease-in-out;
 }
 
+.no-underline {
+    text-decoration: none;
+}
+
 .italic {
     font-style: italic;
 }
