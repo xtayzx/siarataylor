@@ -59,7 +59,7 @@ button {
     transition: all 0.3s ease-in-out;
 }
 
-.click-button, .tab-button {
+.click-button, .tab-button, .busk-button {
     background-color: var(--button);
     padding: 1.5rem 2rem;
     float: none;
@@ -85,7 +85,7 @@ button {
     background-color: #384b81;
 }
 
-.click-button:hover, .tab-button:hover {
+.click-button:hover, .tab-button:hover, .busk-button:hover {
     background-color: var(--link);
 }
 
@@ -137,7 +137,7 @@ button:target {
     width: 100%;
 }
 
-.grid-socials {
+.grid-socials, .grid-socials-busk {
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -149,9 +149,14 @@ button:target {
     display: inline-block;
 }
 
+.grid-socials-busk a {
+    margin: 3rem 3rem;
+    display: inline-block;
+}
+
 
 .grid-socials a:hover,
-.grid-socials a:focus {
+.grid-socials a:focus, .grid-socials-busk a:hover, .grid-socials-busk a:focus {
     filter: brightness(0) saturate(100%) invert(74%) sepia(26%) saturate(784%) hue-rotate(192deg) brightness(101%) contrast(104%);
 }
 
@@ -480,6 +485,11 @@ img {
     margin: 1.5rem 0.5rem; 
     padding: 1rem 0.25rem;
     font-size: 1rem;
+    }
+    
+    a.busk-button {
+        margin: 2rem 0;
+        padding: 2rem 1rem;
     }
 
     #listen {
