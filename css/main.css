@@ -334,6 +334,12 @@ h3, p.show {
     margin-top: 3rem;
 }
 
+.portrait {
+    max-width: 300px;
+    border: 5px solid var(--blue);
+    /* margin-top: 3rem; */
+}
+
 @media (min-width: 768px) {
 /* For menu collapse */
     .navbar-expand-md .navbar-toggler {
