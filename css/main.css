@@ -265,7 +265,7 @@ hr {
 
 /* FONTS */
 
-h1, p.title {
+h1, p.title, .busk-title  {
     font-family: 'urw-form', sans-serif;
     font-size: 3.2rem;
     font-weight: 400;
@@ -282,6 +282,12 @@ h1, p.title {
     color: var(--font);
     text-transform: uppercase;
   }
+
+.busk-title {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    margin: 2rem 0 1rem 0;
+}
   
 h2, .subtitle {
     font-family: 'urw-form', sans-serif;
@@ -392,7 +398,6 @@ h3, p.show {
     }
 }
 
-
 p {
     font-family: 'urw-form', sans-serif;
     color: var(--font);
@@ -498,7 +503,7 @@ img {
     }
     
     a.busk-button {
-        margin: 2rem 0;
+        margin: 2rem 0 1rem 0;
         padding: 2rem 1rem;
     }
 
