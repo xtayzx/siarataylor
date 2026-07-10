@@ -47,6 +47,18 @@ header {
     justify-content: right;
 }
 
+.white-bkg {
+    background-color:rgb(255,255,255,0.9);
+}
+
+.white-bkg p, .white-bkg a {
+    color: rgb(0,0,0);
+}
+
+.white-bkg a:hover {
+    color:#21315d;
+}
+
 /* MENU */
 
 button {
