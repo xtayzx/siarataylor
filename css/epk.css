@@ -1,0 +1,42 @@
+body  {
+    background-color: #fafafa;
+}
+
+h1, h2, p, .busk-title, .subtitle, b, i, p a {
+    color: #000000;
+}
+
+.bio {
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.gallery {
+    column-gap: 2rem;
+}
+
+img {
+    border: 5px solid rgb(0,0,0);
+}
+
+.subtitle {
+    font-size: 1.4rem;
+}
+
+@media (min-width: 62rem) {
+    .column-4 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 96rem) {
+    .column-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+p a:hover,
+p a:focus {
+    color: #21315d;
+    transition: all 0.3s ease-in-out;
+}
